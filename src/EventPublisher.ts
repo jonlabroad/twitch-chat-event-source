@@ -24,7 +24,10 @@ export class EventPublisher {
             const command = new PutEventsCommand({
                 Entries: entries,
             });
-            await this.client.send(command);
+            const response = await this.client.send(command);
+            if (!!response?.FailedEntryCount) {
+                console.error(response);
+            }
         } catch (err) {
             console.error(err);
         }
