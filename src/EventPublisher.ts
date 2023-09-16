@@ -24,7 +24,6 @@ export class EventPublisher {
             const command = new PutEventsCommand({
                 Entries: entries,
             });
-            console.log({ entries });
             await this.client.send(command);
         } catch (err) {
             console.error(err);
