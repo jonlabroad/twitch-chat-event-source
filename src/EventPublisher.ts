@@ -12,10 +12,11 @@ export class EventPublisher {
     }
 
     public async send(msg: Object | string) {
+        const isDev = process.env.NODE_ENV !== "production";
         try {
             const entries: PutEventsRequestEntry[] = [
                 {
-                    Source: 'hoagie.twitch-chat',
+                    Source: `hoagie.twitch-chat${isDev ? "-dev" : ""}`,
                     DetailType: 'Message',
                     Detail: (typeof msg === "string") ? msg : JSON.stringify(msg)
                 }
