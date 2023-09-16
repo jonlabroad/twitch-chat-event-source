@@ -1,0 +1,3747 @@
+[
+  "andrewcore",
+  "andrewcore2",
+  "hoagieman5000",
+  "jodoesntplayviolin",
+  "joplaysviolin",
+  "thesongery"
+]"connected"{
+  "channel": "#andrewcore",
+  "state": {
+    "emote-only": false,
+    "followers-only": "-1",
+    "r9k": false,
+    "room-id": "557907880",
+    "slow": false,
+    "subs-only": false,
+    "channel": "#andrewcore"
+  }
+}{
+  "channel": "#andrewcore2",
+  "state": {
+    "emote-only": false,
+    "followers-only": "-1",
+    "r9k": false,
+    "room-id": "823562323",
+    "slow": false,
+    "subs-only": false,
+    "channel": "#andrewcore2"
+  }
+}{
+  "channel": "#hoagieman5000",
+  "state": {
+    "emote-only": false,
+    "followers-only": "-1",
+    "r9k": false,
+    "room-id": "408982109",
+    "slow": false,
+    "subs-only": false,
+    "channel": "#hoagieman5000"
+  }
+}{
+  "newStream": "42766275147"
+}{
+  "newStream": "42765647307"
+}{
+  "channel": "#jodoesntplayviolin",
+  "state": {
+    "emote-only": false,
+    "followers-only": "-1",
+    "r9k": false,
+    "room-id": "725443685",
+    "slow": false,
+    "subs-only": false,
+    "channel": "#jodoesntplayviolin"
+  }
+}{
+  "channel": "#joplaysviolin",
+  "state": {
+    "emote-only": false,
+    "followers-only": "-1",
+    "r9k": false,
+    "room-id": "272628458",
+    "slow": false,
+    "subs-only": false,
+    "channel": "#joplaysviolin"
+  }
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "958d3e0b59ccaadc2050d956e18b71df",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "12ab2af5-2aa4-4b1c-ab36-d7973cfa8077",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694833857429",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "do you want the link"
+}{
+  "channel": "#thesongery",
+  "state": {
+    "emote-only": false,
+    "followers-only": "-1",
+    "r9k": false,
+    "room-id": "118391771",
+    "slow": false,
+    "subs-only": false,
+    "channel": "#thesongery"
+  }
+}
+[
+  "andrewcore",
+  "andrewcore2",
+  "hoagieman5000",
+  "jodoesntplayviolin",
+  "joplaysviolin",
+  "thesongery"
+]"connected"
+
+{
+  "channel": "#andrewcore",
+  "state": {
+    "emote-only": false,
+    "followers-only": "-1",
+    "r9k": false,
+    "room-id": "557907880",
+    "slow": false,
+    "subs-only": false,
+    "channel": "#andrewcore"
+  }
+}{
+  "channel": "#andrewcore2",
+  "state": {
+    "emote-only": false,
+    "followers-only": "-1",
+    "r9k": false,
+    "room-id": "823562323",
+    "slow": false,
+    "subs-only": false,
+    "channel": "#andrewcore2"
+  }
+}
+
+{
+  "channel": "#hoagieman5000",
+  "state": {
+    "emote-only": false,
+    "followers-only": "-1",
+    "r9k": false,
+    "room-id": "408982109",
+    "slow": false,
+    "subs-only": false,
+    "channel": "#hoagieman5000"
+  }
+}{
+  "newStream": "42765647307"
+}
+{
+  "newStream": "42766275147"
+}
+{
+  "channel": "#jodoesntplayviolin",
+  "state": {
+    "emote-only": false,
+    "followers-only": "-1",
+    "r9k": false,
+    "room-id": "725443685",
+    "slow": false,
+    "subs-only": false,
+    "channel": "#jodoesntplayviolin"
+  }
+}
+{
+  "channel": "#joplaysviolin",
+  "state": {
+    "emote-only": false,
+    "followers-only": "-1",
+    "r9k": false,
+    "room-id": "272628458",
+    "slow": false,
+    "subs-only": false,
+    "channel": "#joplaysviolin"
+  }
+}
+
+{
+  "channel": "#thesongery",
+  "state": {
+    "emote-only": false,
+    "followers-only": "-1",
+    "r9k": false,
+    "room-id": "118391771",
+    "slow": false,
+    "subs-only": false,
+    "channel": "#thesongery"
+  }
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "dc682a02-3d2c-498f-a1d7-060471b6048f",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834011234",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "@kritteers, Sunlight On Your Skin Bonus Track - Lil Peep, ILOVEMAKONNEN added to queue at position: 7"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "3012",
+      "bits": "600000"
+    },
+    "client-nonce": "033703a903ba9bb800e059405eada506",
+    "color": "#F87F02",
+    "display-name": "HoagieMan5000",
+    "emote-only": true,
+    "emotes": {
+      "emotesv2_a2d0a954d2c44ec981c0e2cc6653388a": [
+        "0-13"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "78db0491-6496-4c8d-8adf-6fd7f83b377f",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834030770",
+    "turbo": false,
+    "user-id": "408982109",
+    "user-type": "mod",
+    "emotes-raw": "emotesv2_a2d0a954d2c44ec981c0e2cc6653388a:0-13",
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/3012,bits/600000",
+    "username": "hoagieman5000",
+    "message-type": "chat"
+  },
+  "message": "missy69PIGGIES"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "3c358f1db65412fb3cff02c24dbe3dcd",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emote-only": true,
+    "emotes": {
+      "emotesv2_4d250846921c4147bf56c8782f4498ca": [
+        "0-11",
+        "13-24",
+        "26-37",
+        "39-50"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "10535dba-c524-4934-906a-0316fcd233dc",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834035084",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": "emotesv2_4d250846921c4147bf56c8782f4498ca:0-11,13-24,26-37,39-50",
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "seasid3GetIt seasid3GetIt seasid3GetIt seasid3GetIt"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "3012",
+      "bits": "600000"
+    },
+    "client-nonce": "6400b487d000a843b63d45c413981722",
+    "color": "#F87F02",
+    "display-name": "HoagieMan5000",
+    "emote-only": true,
+    "emotes": {
+      "emotesv2_bbbc29e6c369432f8a6abb20510ce86b": [
+        "0-10"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "a58317b2-fadd-409c-bfa0-d49c2db28c35",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834045090",
+    "turbo": false,
+    "user-id": "408982109",
+    "user-type": "mod",
+    "emotes-raw": "emotesv2_bbbc29e6c369432f8a6abb20510ce86b:0-10",
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/3012,bits/600000",
+    "username": "hoagieman5000",
+    "message-type": "chat"
+  },
+  "message": "knumbtDance"
+}
+{
+  "type": "subscription",
+  "username": "Kritteers",
+  "message": "andrew289Banan",
+  "method": 4
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "d580b97c-bb96-489e-9e98-a1d57be7c21c",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834071607",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "Kritteers has continuously committed to the Cult Of The Immortal Stick for 6 months!"
+}
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "1efcd94cbfd6d52c52d0ea2664881088",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "2aa213e3-a704-4ce1-876e-c1f7d95dffc3",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834091978",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "!song"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "89a7af08-d7a0-4b3d-b4f2-aea74d3f1fd5",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834092197",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "@lady__katie__, CURRENT SONG: Geronimo - The Knock, Fred Falke, requested by:  Cashmerefeline"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "3012",
+      "bits": "600000"
+    },
+    "client-nonce": "981483fdd5b203a56668b992ffb07d72",
+    "color": "#F87F02",
+    "display-name": "HoagieMan5000",
+    "emote-only": true,
+    "emotes": {
+      "emotesv2_5182474a252d4709b04ac309f109aeb8": [
+        "0-9"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "41048c94-e790-46a8-ae51-e3b0e17c4857",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834111741",
+    "turbo": false,
+    "user-id": "408982109",
+    "user-type": "mod",
+    "emotes-raw": "emotesv2_5182474a252d4709b04ac309f109aeb8:0-9",
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/3012,bits/600000",
+    "username": "hoagieman5000",
+    "message-type": "chat"
+  },
+  "message": "jonlimWAVE"
+}
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "b95a18d23e48980df2193f05fb792410",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "9de9f85c-5a6c-4e5d-a871-52d4fbbfe0c6",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834118621",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "love a good slap bass line"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "8b928a8c-157f-4a4a-add5-02417586b5af",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834128810",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "@cookiesnchampagne, Limbo - Lawrence added to queue at position: 8"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emote-only": true,
+    "emotes": {
+      "116625": [
+        "0-7",
+        "19-26",
+        "38-45",
+        "57-64",
+        "76-83",
+        "95-102",
+        "114-121",
+        "133-140",
+        "152-159",
+        "171-178",
+        "190-197"
+      ],
+      "166263": [
+        "9-17",
+        "28-36",
+        "47-55",
+        "66-74",
+        "85-93",
+        "104-112",
+        "123-131",
+        "142-150",
+        "161-169",
+        "180-188",
+        "199-207"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "62b7dac9-cf45-41f6-b544-77f0c5efc8cd",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834170560",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": "116625:0-7,19-26,38-45,57-64,76-83,95-102,114-121,133-140,152-159,171-178,190-197/166263:9-17,28-36,47-55,66-74,85-93,104-112,123-131,142-150,161-169,180-188,199-207",
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "CurseLit TwitchLit CurseLit TwitchLit CurseLit TwitchLit CurseLit TwitchLit CurseLit TwitchLit CurseLit TwitchLit CurseLit TwitchLit CurseLit TwitchLit CurseLit TwitchLit CurseLit TwitchLit CurseLit TwitchLit"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "53d0f619-9ab9-483c-8e45-3678f1d0ad32",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834171884",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "ab275684-e5e4-4138-89b7-59f5b7e462f1",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834174262",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "4f99de2d-fe68-4d14-9f66-19c8ed7f36d9",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834176896",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "3caac1adfb2628cbce60183d87fe766d",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "ef42dcdd-c604-4b76-a68c-ca2a19d7eb06",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834179326",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "!clap"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "e8d05c13-c2ea-43f5-bb57-90df8a369e21",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834179762",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "f4ae5ed0-82c4-4d68-a8f8-61e35fd5e43d",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834182886",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "0b473601-ce8a-4cfd-a12b-4cd23178cd5a",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834182979",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "f4b163e7-282d-4722-bd51-f41cc7c7ad40",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834184070",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "bee490ca-4c44-4d59-847a-63d722d11f93",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834187477",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "3012",
+      "bits": "600000"
+    },
+    "client-nonce": "edc04f0c639878e89fef1d74bda9d62f",
+    "color": "#F87F02",
+    "display-name": "HoagieMan5000",
+    "emote-only": true,
+    "emotes": {
+      "emotesv2_a2d0a954d2c44ec981c0e2cc6653388a": [
+        "0-13",
+        "15-28",
+        "30-43"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "6e93da41-b177-4366-9be7-4b66cc1dd57e",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834187964",
+    "turbo": false,
+    "user-id": "408982109",
+    "user-type": "mod",
+    "emotes-raw": "emotesv2_a2d0a954d2c44ec981c0e2cc6653388a:0-13,15-28,30-43",
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/3012,bits/600000",
+    "username": "hoagieman5000",
+    "message-type": "chat"
+  },
+  "message": "missy69PIGGIES missy69PIGGIES missy69PIGGIES"
+}
+
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "31"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "12"
+    },
+    "client-nonce": "96cff21f89b0b56bcde90e750d15029f",
+    "color": "#780000",
+    "display-name": "Daemonarchy",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "1b50ea2e-8a84-410b-9c53-7316e4c531fb",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834253664",
+    "turbo": false,
+    "user-id": "39394655",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/31",
+    "badges-raw": "moderator/1,subscriber/12",
+    "username": "daemonarchy",
+    "message-type": "chat"
+  },
+  "message": "okay so"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "df3283af-cc68-490e-9e00-b69eebd9ae1e",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834255569",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "xeri_star requested Freestyler - Bomfunk MC's at position 8"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "17604f82-9368-49c4-9853-dae63346d6fc",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834256159",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "@skyyplum, Song queue located here: https://www.streamersonglist.com/t/andrewcore/queue"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "31"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "12"
+    },
+    "client-nonce": "988c2e1b38561dca3a419e1cd620ce93",
+    "color": "#780000",
+    "display-name": "Daemonarchy",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "8a5c3e99-dfbf-4809-8cd8-dfa37078a493",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834262549",
+    "turbo": false,
+    "user-id": "39394655",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/31",
+    "badges-raw": "moderator/1,subscriber/12",
+    "username": "daemonarchy",
+    "message-type": "chat"
+  },
+  "message": "there is zero evidence that Aly is an AI"
+}{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "31"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "12"
+    },
+    "client-nonce": "fd42e6fcfa7140d2a14f384f2919d387",
+    "color": "#780000",
+    "display-name": "Daemonarchy",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "1fe80fe4-1156-45f4-8116-ae2901312894",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834263733",
+    "turbo": false,
+    "user-id": "39394655",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/31",
+    "badges-raw": "moderator/1,subscriber/12",
+    "username": "daemonarchy",
+    "message-type": "chat"
+  },
+  "message": "so"
+}
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "34"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "5"
+    },
+    "client-nonce": "ecb7e311dd3df8aa76ec4486fff3b211",
+    "color": "#F8C436",
+    "display-name": "pencils45",
+    "emote-only": true,
+    "emotes": {
+      "425618": [
+        "0-2"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "a115b3d1-ff61-4114-bdfa-632b6056d2d5",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834274885",
+    "turbo": false,
+    "user-id": "96885173",
+    "user-type": "mod",
+    "emotes-raw": "425618:0-2",
+    "badge-info-raw": "subscriber/34",
+    "badges-raw": "moderator/1,subscriber/24,moments/5",
+    "username": "pencils45",
+    "message-type": "chat"
+  },
+  "message": "LUL"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "35"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "3024",
+      "moments": "7"
+    },
+    "color": "#2E8B57",
+    "display-name": "mermaidroadie",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "30882329-940d-4473-98c9-1bc89f030e57",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834275209",
+    "turbo": false,
+    "user-id": "598202021",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/35",
+    "badges-raw": "moderator/1,subscriber/3024,moments/7",
+    "username": "mermaidroadie",
+    "message-type": "chat"
+  },
+  "message": "Yee"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "d6aa794d-2ccf-4c72-ab29-f36af6d59622",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834276684",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "action"
+  },
+  "message": "cashmerefeline is marching to the beat of their own drum"
+}
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "34"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "5"
+    },
+    "client-nonce": "b859394d613dee637b6d7abd29ff90e2",
+    "color": "#F8C436",
+    "display-name": "pencils45",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "fd76c25b-29cf-4ca3-951e-5f26b222e09e",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834284881",
+    "turbo": false,
+    "user-id": "96885173",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/34",
+    "badges-raw": "moderator/1,subscriber/24,moments/5",
+    "username": "pencils45",
+    "message-type": "chat"
+  },
+  "message": "yeah he sings"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "4ff682b940db124b4c2878d6aca445a6",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "ad3dd897-2a42-478b-80f5-04b903cbe191",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834287285",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "he does"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "9000d144e20efcaf348df66bdc27724c",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "86ecf842-68f9-44a8-bb36-36ca1cf339b8",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834290654",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "he sings A LOT"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "3012",
+      "bits": "600000"
+    },
+    "client-nonce": "7f6f0ff566a2aa3fb6638b5402d41edd",
+    "color": "#F87F02",
+    "display-name": "HoagieMan5000",
+    "emotes": {
+      "emotesv2_a2d0a954d2c44ec981c0e2cc6653388a": [
+        "5-18"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "aeeba107-6215-4c01-bd04-72244a19328e",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834296371",
+    "turbo": false,
+    "user-id": "408982109",
+    "user-type": "mod",
+    "emotes-raw": "emotesv2_a2d0a954d2c44ec981c0e2cc6653388a:5-18",
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/3012,bits/600000",
+    "username": "hoagieman5000",
+    "message-type": "chat"
+  },
+  "message": "hi d missy69PIGGIES"
+}
+{
+  "type": "cheer",
+  "user": "xeri_star",
+  "message": "he does Cheer1  of singing"
+}
+"1"
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "11d8e155-f490-416a-baa1-7503d6ae239e",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834313916",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "Very Grateful to xeri_star for placing 1 bits into the collection at today's meeting"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "8eac5d49ae0a55854e712de266ade76c",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": {
+      "425618": [
+        "63-65"
+      ]
+    },
+    "first-msg": false,
+    "flags": "42-45:A.3",
+    "id": "ae43c524-904b-4f09-94c6-83555359fdc2",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834335685",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": "425618:63-65",
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "youre doing a pretty good job of making a fool out of yourself LUL"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "7f5a9413d4fb93f7d150d19d8088ed44",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "5ab7e56d-ef59-4820-acbf-56df3c1577af",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834342418",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "!prime"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "4b50c2ee-b535-4a7e-adec-b4b93fc7316a",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834342679",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "Do you have Amazon Prime? You could have a free prime sub lying around.. Think of all the sick emotes and song bumps you're missing out on if you don't redeem it here!!"
+}
+
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "3012",
+      "bits": "600000"
+    },
+    "client-nonce": "4b8eb00cfdb8ff6f9484183b39318b6d",
+    "color": "#F87F02",
+    "display-name": "HoagieMan5000",
+    "emote-only": true,
+    "emotes": {
+      "308094471": [
+        "0-13",
+        "15-28",
+        "30-43",
+        "45-58"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "25b8ac16-70e3-41b0-aa57-5c9905e6122a",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834346403",
+    "turbo": false,
+    "user-id": "408982109",
+    "user-type": "mod",
+    "emotes-raw": "308094471:0-13,15-28,30-43,45-58",
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/3012,bits/600000",
+    "username": "hoagieman5000",
+    "message-type": "chat"
+  },
+  "message": "kimarieBexClap kimarieBexClap kimarieBexClap kimarieBexClap"
+}{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "f57117eb-a383-4901-bd04-517179225a71",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834368686",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "@rafikireads, Song list located here: https://www.streamersonglist.com/t/thesongery/songs"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "a69f4723ad51ddaa6f8e8620fe82802d",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": {
+      "425618": [
+        "38-40"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "f7746c0b-2f2a-46a5-b8ec-cb16f542fc9e",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834375916",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": "425618:38-40",
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "thats what i said when i previewed it LUL"
+}
+
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "3012",
+      "bits": "600000"
+    },
+    "client-nonce": "fa5ff965eb1bc146edf5953558183e66",
+    "color": "#F87F02",
+    "display-name": "HoagieMan5000",
+    "emotes": {
+      "emotesv2_66f057c223164911a6fe9fea73363482": [
+        "10-21"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "b15b000c-68d3-4489-afbb-d4dbde0888fa",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834381926",
+    "turbo": false,
+    "user-id": "408982109",
+    "user-type": "mod",
+    "emotes-raw": "emotesv2_66f057c223164911a6fe9fea73363482:10-21",
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/3012,bits/600000",
+    "username": "hoagieman5000",
+    "message-type": "chat"
+  },
+  "message": "folksyfox mermai75Wave"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "b8cf969e468c76b9202d191d5862ed19",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "7b13a0db-bbd4-4808-80dd-cfaee3b0da98",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834394085",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "!how 스크램블드에그"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "d3677db8-94c3-4a8e-a760-38215e29d9db",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834394289",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "action"
+  },
+  "message": "스크램블드에그 To request a song, drop a follow, then type !SL to view Andrew's song list. Type !SR Title - Artist to add a song to the queue. Please keep it under 5 minutes, PG-13, and follow the vibe!"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "f00d1165-5af1-475c-bb82-81957c18137f",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834397349",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "@bluenfuego, Around Us - Jonsi added to queue at position: 2"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "0ac7bc5c-9434-4759-b2e1-8dab10e3e7cb",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834401252",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "@astrongproductions, Fake Plastic Trees - Radiohead added to queue at position: 3"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "48f45460-e085-4b13-93b6-fb49259d06f0",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834412347",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "@bluenfuego, Your request for Around Us - Jonsi has been removed from position 2"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1",
+      "partner": "1"
+    },
+    "color": "#7C7CE1",
+    "display-name": "Nightbot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "c35272ab-f6df-4e8a-b83d-551f52857098",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834412390",
+    "turbo": false,
+    "user-id": "19264788",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1,partner/1",
+    "username": "nightbot",
+    "message-type": "chat"
+  },
+  "message": "🎟🎟🎟🎟🎟SOCIALS 🎟🎟🎟🎟🎟  https://www.instagram.com/thesongery/ https://twitter.com/TheSongery https://discord.com/invite/43u8r8j  🎟🎟🎟🎟🎟"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "3012",
+      "bits": "600000"
+    },
+    "client-nonce": "4a475650e75498bd9128898d0af77b3b",
+    "color": "#F87F02",
+    "display-name": "HoagieMan5000",
+    "emote-only": true,
+    "emotes": {
+      "emotesv2_3886a415afad44fea4fc3219bc77a336": [
+        "0-14"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "99c36c82-1ca4-43a9-84c9-a87a5f3314a7",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834413368",
+    "turbo": false,
+    "user-id": "408982109",
+    "user-type": "mod",
+    "emotes-raw": "emotesv2_3886a415afad44fea4fc3219bc77a336:0-14",
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/3012,bits/600000",
+    "username": "hoagieman5000",
+    "message-type": "chat"
+  },
+  "message": "kimarieBexFever"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "6a609f23c179ff05426d6d7bf1303627",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "0afe9325-f1b7-4944-87fe-8d498364f1f5",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834425804",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "!drop"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "194f6ece-be2e-4c25-9191-967d20cfa8e4",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834426070",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "action"
+  },
+  "message": "Nice Save! The mods have noticed Andrew dropping his sticks 312 times!"
+}
+
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "b3b5c69d-ee19-4520-8ed1-73bf3ec244ae",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834448101",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "@bluenfuego, Us - Regina Spektor added to queue at position: 3"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "c51a604b1faf7c3a9161c297aa11dd9b",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "7c3659a1-2626-4398-89a1-121dc5c925fc",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834485784",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "!catjam"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "632010ed-5100-468c-a7e0-219e07469f01",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834486060",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM catJAM"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "a9f32599-f64a-4d16-8b7b-80693c28771b",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834513040",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "rafikireads requested Everlong - Foo Fighters at position 4"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "3012",
+      "bits": "600000"
+    },
+    "client-nonce": "dc700a01a5e2a42526515c2019e0e8e5",
+    "color": "#F87F02",
+    "display-name": "HoagieMan5000",
+    "emotes": {
+      "305834888": [
+        "19-31"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "4add229b-569b-408a-b993-f3359cc0b279",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834519305",
+    "turbo": false,
+    "user-id": "408982109",
+    "user-type": "mod",
+    "emotes-raw": "305834888:19-31",
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/3012,bits/600000",
+    "username": "hoagieman5000",
+    "message-type": "chat"
+  },
+  "message": "AStrongProductions joplayHeyguys"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "34"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "5"
+    },
+    "client-nonce": "84eb2ceac269c22b2a59f1e1404421b6",
+    "color": "#F8C436",
+    "display-name": "pencils45",
+    "emote-only": true,
+    "emotes": {
+      "emotesv2_63dc030c3ea740c1b43ad478845fb5d7": [
+        "0-14"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "5521f328-17cb-475c-95f7-e4e4d5af261f",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834540570",
+    "turbo": false,
+    "user-id": "96885173",
+    "user-type": "mod",
+    "emotes-raw": "emotesv2_63dc030c3ea740c1b43ad478845fb5d7:0-14",
+    "badge-info-raw": "subscriber/34",
+    "badges-raw": "moderator/1,subscriber/24,moments/5",
+    "username": "pencils45",
+    "message-type": "chat"
+  },
+  "message": "missy69Headbang"
+}
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "d383576f5f5a73f3f017d08eab8b1fe6",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emote-only": true,
+    "emotes": {
+      "emotesv2_edf227815b2a4d47b6a11c091bdda194": [
+        "0-17",
+        "19-36",
+        "38-55",
+        "57-74"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "fa38f9cd-9f5c-497a-9641-a3242e804a76",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834548460",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": "emotesv2_edf227815b2a4d47b6a11c091bdda194:0-17,19-36,38-55,57-74",
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "seasid3IsForSmooth seasid3IsForSmooth seasid3IsForSmooth seasid3IsForSmooth"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "f3be1ea2-7ea1-4b6a-8546-ca84651da43c",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834564989",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "a9809ea8-ded5-410d-8721-104f82e586c2",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834570369",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "61e69948-48ba-49f0-bcc3-e0774060d2a3",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834571165",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "7547dd3b708987a6904216629a48f32c",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "1af2ffee-e9c4-4aee-87d4-818575348ff4",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834579251",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "i dug it"
+}
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "a9768efc-428e-41b9-bb9e-4e48aaab9386",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834579567",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "5978d121f7f730bac3650729cbe601ec",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "5c929933-9b08-4110-a2b0-a6eff690ffac",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834581581",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "it was cool"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "bfe8476c7e1993671436ed4ce3fffabc",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "6904aff4-5701-43a0-8a6f-a308c48ae926",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834584504",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "!clap"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "02d5c85b-aab5-4d65-84b8-ea41e82de13f",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834584759",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "c36b2001-b467-45e4-9d72-8918159f6484",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834586362",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "Come join us on discord! https://discord.gg/qw9bGCmBEE | Instagram: http://www.instagram.com/andrew.core | TikTok: https://vm.tiktok.com/ZTdXQHtJE/"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "cc17be7f-43d5-4428-bc8a-8ae1f47ed2d1",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834594462",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "015948b8-99bf-4737-ab81-cb52198722fa",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834614601",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "aprilghostspine requested Heartbeats - The Knife at position 8"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "8ff4b1d1e3e58a176da177f249dd7586",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "e4c299c5-a9b2-4480-96f2-0fe86fbd449b",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834617696",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "spotify says so"
+}{
+  "type": "subgift",
+  "username": "folksyfox",
+  "message": "SecretSonicRings",
+  "method": 0,
+  "methods": {
+    "badge-info": {
+      "subscriber": "12"
+    },
+    "badges": {
+      "subscriber": "12",
+      "premium": "1"
+    },
+    "color": null,
+    "display-name": "folksyfox",
+    "emotes": null,
+    "flags": null,
+    "id": "05747987-d015-49f6-96c9-2f10db4b24ae",
+    "login": "folksyfox",
+    "mod": false,
+    "msg-id": "subgift",
+    "msg-param-gift-months": true,
+    "msg-param-months": true,
+    "msg-param-origin-id": "e5 69 0e 07 ba 8b 7c 4f 42 2c 9e bf 7f c1 40 57 cb 18 fc c0",
+    "msg-param-recipient-display-name": "SecretSonicRings",
+    "msg-param-recipient-id": "46731025",
+    "msg-param-recipient-user-name": "secretsonicrings",
+    "msg-param-sender-count": false,
+    "msg-param-sub-plan-name": "I like The Songery",
+    "msg-param-sub-plan": "1000",
+    "room-id": "118391771",
+    "subscriber": true,
+    "system-msg": "folksyfox gifted a Tier 1 sub to SecretSonicRings!",
+    "tmi-sent-ts": "1694834652270",
+    "user-id": "520039591",
+    "user-type": null,
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/12",
+    "badges-raw": "subscriber/12,premium/1",
+    "message-type": "subgift"
+  },
+  "plan": "1000"
+}
+
+{
+  "type": "subgift",
+  "username": "folksyfox",
+  "message": "passpass77",
+  "method": 0,
+  "methods": {
+    "badge-info": {
+      "subscriber": "12"
+    },
+    "badges": {
+      "subscriber": "12",
+      "premium": "1"
+    },
+    "color": null,
+    "display-name": "folksyfox",
+    "emotes": null,
+    "flags": null,
+    "id": "443f701f-a135-4f38-b171-a89abedcf901",
+    "login": "folksyfox",
+    "mod": false,
+    "msg-id": "subgift",
+    "msg-param-gift-months": true,
+    "msg-param-months": true,
+    "msg-param-origin-id": "e5 69 0e 07 ba 8b 7c 4f 42 2c 9e bf 7f c1 40 57 cb 18 fc c0",
+    "msg-param-recipient-display-name": "passpass77",
+    "msg-param-recipient-id": "144743868",
+    "msg-param-recipient-user-name": "passpass77",
+    "msg-param-sender-count": false,
+    "msg-param-sub-plan-name": "I like The Songery",
+    "msg-param-sub-plan": "1000",
+    "room-id": "118391771",
+    "subscriber": true,
+    "system-msg": "folksyfox gifted a Tier 1 sub to passpass77!",
+    "tmi-sent-ts": "1694834652328",
+    "user-id": "520039591",
+    "user-type": null,
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/12",
+    "badges-raw": "subscriber/12,premium/1",
+    "message-type": "subgift"
+  },
+  "plan": "1000"
+}
+{
+  "type": "subgift",
+  "username": "folksyfox",
+  "message": "roltt2",
+  "method": 0,
+  "methods": {
+    "badge-info": {
+      "subscriber": "12"
+    },
+    "badges": {
+      "subscriber": "12",
+      "premium": "1"
+    },
+    "color": null,
+    "display-name": "folksyfox",
+    "emotes": null,
+    "flags": null,
+    "id": "012d89a0-f896-4fe9-b48c-626e61f0640a",
+    "login": "folksyfox",
+    "mod": false,
+    "msg-id": "subgift",
+    "msg-param-gift-months": true,
+    "msg-param-months": true,
+    "msg-param-origin-id": "e5 69 0e 07 ba 8b 7c 4f 42 2c 9e bf 7f c1 40 57 cb 18 fc c0",
+    "msg-param-recipient-display-name": "roltt2",
+    "msg-param-recipient-id": "627464299",
+    "msg-param-recipient-user-name": "roltt2",
+    "msg-param-sender-count": false,
+    "msg-param-sub-plan-name": "I like The Songery",
+    "msg-param-sub-plan": "1000",
+    "room-id": "118391771",
+    "subscriber": true,
+    "system-msg": "folksyfox gifted a Tier 1 sub to roltt2!",
+    "tmi-sent-ts": "1694834652339",
+    "user-id": "520039591",
+    "user-type": null,
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/12",
+    "badges-raw": "subscriber/12,premium/1",
+    "message-type": "subgift"
+  },
+  "plan": "1000"
+}{
+  "type": "subgift",
+  "username": "folksyfox",
+  "message": "ale15010",
+  "method": 0,
+  "methods": {
+    "badge-info": {
+      "subscriber": "12"
+    },
+    "badges": {
+      "subscriber": "12",
+      "premium": "1"
+    },
+    "color": null,
+    "display-name": "folksyfox",
+    "emotes": null,
+    "flags": null,
+    "id": "7b18fb88-a69b-4dec-bcea-a5d10108744f",
+    "login": "folksyfox",
+    "mod": false,
+    "msg-id": "subgift",
+    "msg-param-gift-months": true,
+    "msg-param-months": true,
+    "msg-param-origin-id": "e5 69 0e 07 ba 8b 7c 4f 42 2c 9e bf 7f c1 40 57 cb 18 fc c0",
+    "msg-param-recipient-display-name": "ale15010",
+    "msg-param-recipient-id": "475444073",
+    "msg-param-recipient-user-name": "ale15010",
+    "msg-param-sender-count": false,
+    "msg-param-sub-plan-name": "I like The Songery",
+    "msg-param-sub-plan": "1000",
+    "room-id": "118391771",
+    "subscriber": true,
+    "system-msg": "folksyfox gifted a Tier 1 sub to ale15010!",
+    "tmi-sent-ts": "1694834652342",
+    "user-id": "520039591",
+    "user-type": null,
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/12",
+    "badges-raw": "subscriber/12,premium/1",
+    "message-type": "subgift"
+  },
+  "plan": "1000"
+}
+
+{
+  "type": "subgift",
+  "username": "folksyfox",
+  "message": "Amirazor",
+  "method": 0,
+  "methods": {
+    "badge-info": {
+      "subscriber": "12"
+    },
+    "badges": {
+      "subscriber": "12",
+      "premium": "1"
+    },
+    "color": null,
+    "display-name": "folksyfox",
+    "emotes": null,
+    "flags": null,
+    "id": "40def092-ed45-4207-a4bb-10f0cdd745a3",
+    "login": "folksyfox",
+    "mod": false,
+    "msg-id": "subgift",
+    "msg-param-gift-months": true,
+    "msg-param-months": true,
+    "msg-param-origin-id": "e5 69 0e 07 ba 8b 7c 4f 42 2c 9e bf 7f c1 40 57 cb 18 fc c0",
+    "msg-param-recipient-display-name": "Amirazor",
+    "msg-param-recipient-id": "147561002",
+    "msg-param-recipient-user-name": "amirazor",
+    "msg-param-sender-count": false,
+    "msg-param-sub-plan-name": "I like The Songery",
+    "msg-param-sub-plan": "1000",
+    "room-id": "118391771",
+    "subscriber": true,
+    "system-msg": "folksyfox gifted a Tier 1 sub to Amirazor!",
+    "tmi-sent-ts": "1694834652359",
+    "user-id": "520039591",
+    "user-type": null,
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/12",
+    "badges-raw": "subscriber/12,premium/1",
+    "message-type": "subgift"
+  },
+  "plan": "1000"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "9bc097c0ecc2abc99b0731d6ea75d44c",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "49991c40-2949-4f18-a288-97c5db6e8d1d",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834655907",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "oh maybe i found a clean onw"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "08f92158162b234886470189c41262bc",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "a31ba2d5-5590-4034-9546-6fa575278dff",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834657713",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "one*"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "fa545720e336ef0c8e6ef4fb69272567",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": "9-14:P.0",
+    "id": "40fe68fd-ec1a-4d9f-bca2-3f2db2394a4c",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834688399",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "nooo not damn!!"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "b7ba6dd8a9408d192eb9fcdfacd63a68",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": "19-22:P.0",
+    "id": "7d51e6e4-4998-4dc3-a5e6-d1fa2f366f23",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834693777",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "wait damnit i said damn!!"
+}
+
+{
+  "type": "subgift",
+  "username": "Starsky53",
+  "message": "smetwickk",
+  "method": 0,
+  "methods": {
+    "badge-info": {
+      "subscriber": "29"
+    },
+    "badges": {
+      "subscriber": "12",
+      "sub-gifter": "350"
+    },
+    "color": "#0000FF",
+    "display-name": "Starsky53",
+    "emotes": null,
+    "flags": null,
+    "id": "a97ad455-f614-4c80-8429-e033aea3e8ef",
+    "login": "starsky53",
+    "mod": false,
+    "msg-id": "subgift",
+    "msg-param-gift-months": true,
+    "msg-param-months": true,
+    "msg-param-origin-id": "82 2d 61 47 52 77 a2 51 8b f1 66 94 1e fa 86 64 b0 b3 a6 5c",
+    "msg-param-recipient-display-name": "smetwickk",
+    "msg-param-recipient-id": "127223239",
+    "msg-param-recipient-user-name": "smetwickk",
+    "msg-param-sender-count": false,
+    "msg-param-sub-plan-name": "I like The Songery",
+    "msg-param-sub-plan": "1000",
+    "room-id": "118391771",
+    "subscriber": true,
+    "system-msg": "Starsky53 gifted a Tier 1 sub to smetwickk!",
+    "tmi-sent-ts": "1694834697005",
+    "user-id": "518318152",
+    "user-type": null,
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/29",
+    "badges-raw": "subscriber/12,sub-gifter/350",
+    "message-type": "subgift"
+  },
+  "plan": "1000"
+}
+{
+  "type": "subgift",
+  "username": "Starsky53",
+  "message": "Jojjan90",
+  "method": 0,
+  "methods": {
+    "badge-info": {
+      "subscriber": "29"
+    },
+    "badges": {
+      "subscriber": "12",
+      "sub-gifter": "350"
+    },
+    "color": "#0000FF",
+    "display-name": "Starsky53",
+    "emotes": null,
+    "flags": null,
+    "id": "e9e6f768-342f-438d-a5c9-feb6d9c1a2f3",
+    "login": "starsky53",
+    "mod": false,
+    "msg-id": "subgift",
+    "msg-param-gift-months": true,
+    "msg-param-months": "3",
+    "msg-param-origin-id": "82 2d 61 47 52 77 a2 51 8b f1 66 94 1e fa 86 64 b0 b3 a6 5c",
+    "msg-param-recipient-display-name": "Jojjan90",
+    "msg-param-recipient-id": "27124836",
+    "msg-param-recipient-user-name": "jojjan90",
+    "msg-param-sender-count": false,
+    "msg-param-sub-plan-name": "I like The Songery",
+    "msg-param-sub-plan": "1000",
+    "room-id": "118391771",
+    "subscriber": true,
+    "system-msg": "Starsky53 gifted a Tier 1 sub to Jojjan90!",
+    "tmi-sent-ts": "1694834697026",
+    "user-id": "518318152",
+    "user-type": null,
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/29",
+    "badges-raw": "subscriber/12,sub-gifter/350",
+    "message-type": "subgift"
+  },
+  "plan": "1000"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "fb221eb59b1d495ec5ee1f5ca64a1e59",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": "0-3:P.0",
+    "id": "1dceffc7-9481-4d6f-ad52-91cbde970094",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834700757",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "damn!"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "304aa7ed7ee13d1f863b02d6a1fb8591",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "1d3b1845-d956-4fde-99b4-3d27e0861e6a",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834704032",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "i said it again!!!"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "04ee5960-2723-4d30-8b88-54518786594d",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834707018",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "ervsona requested crushcrushcrush - Paramore at position 9"
+}
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "8354f2e6a3b81b21056c1707444d8a3e",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "8e48d5e0-ca4a-4e98-9109-f7c278924e6b",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834729673",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "i know im ashamed!!"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "4f4151e1cdd1d5133fe5fcfddf4bf7a0",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "bc9004c0-4db4-45b9-8768-4670e02d1e2f",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834734254",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "so damned"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "af64006864507f0f92e9f93d68704c32",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "bae4f22c-fa73-4ce2-9956-2897985f5837",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834736323",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "wait..."
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "6c488383f8c4773f351086f531f39ddc",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "8f66f020-d3d9-4ae2-b66c-5cfc1ee04506",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834776040",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "Ervsona andrew already played that one, do you mind picking a new song request?"
+}
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "34"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "5"
+    },
+    "client-nonce": "fb6a91abaa245f66a53529fb43cbb13f",
+    "color": "#F8C436",
+    "display-name": "pencils45",
+    "emote-only": true,
+    "emotes": {
+      "emotesv2_a0f5e4a3371c4813bd868f051b240ede": [
+        "0-12"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "bf682aab-be84-43b3-8e17-aab168f1d64c",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834792066",
+    "turbo": false,
+    "user-id": "96885173",
+    "user-type": "mod",
+    "emotes-raw": "emotesv2_a0f5e4a3371c4813bd868f051b240ede:0-12",
+    "badge-info-raw": "subscriber/34",
+    "badges-raw": "moderator/1,subscriber/24,moments/5",
+    "username": "pencils45",
+    "message-type": "chat"
+  },
+  "message": "borist8Parrot"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "6aa575c7-2552-4626-a584-8c2d4eaf3a7a",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834796366",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "*Photosensitivity Warning: This stream heavily features flashing lights and graphics*"
+}
+
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "f0bb41f3-42f3-424c-ab9f-49634e7ce4a9",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834817984",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "hoagieman5000 requested How to Be a Heartbreaker - Marina and the Diamonds at position 5"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "3012",
+      "bits": "600000"
+    },
+    "client-nonce": "8c43a3bc3623835c3e042b6ed09f4293",
+    "color": "#F87F02",
+    "display-name": "HoagieMan5000",
+    "emote-only": true,
+    "emotes": {
+      "emotesv2_09c5d0aa9a944d8da8de37b85c55242b": [
+        "0-12",
+        "25-37"
+      ],
+      "emotesv2_b7d37a63a45c450699d656d35672c46a": [
+        "14-23"
+      ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "c7f97464-22da-4c24-9e13-54956ccf79a6",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834835741",
+    "turbo": false,
+    "user-id": "408982109",
+    "user-type": "mod",
+    "emotes-raw": "emotesv2_09c5d0aa9a944d8da8de37b85c55242b:0-12,25-37/emotesv2_b7d37a63a45c450699d656d35672c46a:14-23",
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/3012,bits/600000",
+    "username": "hoagieman5000",
+    "message-type": "chat"
+  },
+  "message": "missy69Wiggle joplayDing missy69Wiggle"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "cac967c7b6149fc76c37351eac570502",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "7bac4ce4-7a5e-481f-ba15-98cc7ca30100",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834857429",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "!clap"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "275d9967-05c0-4840-951e-8744eddc99d1",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834857676",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "b324af6e-e710-47cf-ad6f-e8c25a48babc",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834858270",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "83d6f0df-6937-468e-8438-ac9633542fad",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834859668",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "97b224a2-91e2-4cc6-b981-1ed4c9e5f2b6",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834860070",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "32"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24"
+    },
+    "client-nonce": "custombot-5fc963772236500d641820ab",
+    "color": "#FF0000",
+    "display-name": "CoreBot5000",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "772a52b2-cacc-4493-9fda-f6ad02934d52",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834865564",
+    "turbo": false,
+    "user-id": "633153622",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/32",
+    "badges-raw": "moderator/1,subscriber/24",
+    "username": "corebot5000",
+    "message-type": "chat"
+  },
+  "message": "👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏👏"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "7a8d3a2da149f29d5bf22579fe50f11e",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "f22e761c-eece-47e4-9cdb-2f9eb73aecc2",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834865823",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "Ervsona thank u!!"
+}
+{
+  "channel": "#thesongery",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1",
+      "partner": "1"
+    },
+    "color": "#7C7CE1",
+    "display-name": "Nightbot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "744f0569-4840-4fd3-aa7a-6ec501ade6bc",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "118391771",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834886833",
+    "turbo": false,
+    "user-id": "19264788",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1,partner/1",
+    "username": "nightbot",
+    "message-type": "chat"
+  },
+  "message": "🎧📣🎧📣🎧ORIGINAL MUSIC 🎧📣🎧📣🎧  https://open.spotify.com/artist/1hhJ3Pgghbd9cw6cOykmyb https://music.apple.com/us/artist/the-songery/740242119 https://tidal.com/browse/artist/5190227 🎧📣🎧📣🎧"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": null,
+    "badges": {
+      "moderator": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "SonglistBot",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "825b6c7f-a215-4ab2-be6b-d5e47529a54e",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": false,
+    "tmi-sent-ts": "1694834886813",
+    "turbo": false,
+    "user-id": "156463545",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": null,
+    "badges-raw": "moderator/1",
+    "username": "songlistbot",
+    "message-type": "chat"
+  },
+  "message": "ervsona requested The Take Over, The Breaks Over - Fall Out Boy at position 9"
+}{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "a41d86383c21971328004fbb5cecc48b",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": "0-5:P.3",
+    "id": "d13c58c6-b381-47a0-82e0-cb122b0d3716",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834901481",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "lmfaoo"
+}
+{
+  "channel": "#andrewcore",
+  "userstate": {
+    "badge-info": {
+      "subscriber": "30"
+    },
+    "badges": {
+      "moderator": "1",
+      "subscriber": "24",
+      "moments": "7"
+    },
+    "client-nonce": "0611b1b3ea40492a6b4dbff640ca9e6f",
+    "color": "#FF69B4",
+    "display-name": "lady__katie__",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "f474e4e6-a55e-45ee-80b0-d818dc623782",
+    "mod": true,
+    "returning-chatter": false,
+    "room-id": "557907880",
+    "subscriber": true,
+    "tmi-sent-ts": "1694834920424",
+    "turbo": false,
+    "user-id": "241667968",
+    "user-type": "mod",
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/30",
+    "badges-raw": "moderator/1,subscriber/24,moments/7",
+    "username": "lady__katie__",
+    "message-type": "chat"
+  },
+  "message": "you? have a negative opinion?? nooo"
+}
