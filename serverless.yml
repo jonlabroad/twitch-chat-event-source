@@ -1,0 +1,39 @@
+service: twitch-chat-event-source
+
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline
+  - serverless-prune-plugin
+  - serverless-plugin-log-retention
+frameworkVersion: '3'
+
+custom:
+  prune:
+    automatic: false
+    number: 0
+  #myStage: ${opt:stage, self:provider.stage}
+  logRetentionInDays: 30 # used to set a global value for all functions
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  versionFunctions: false
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - ecs:RunTask
+        - ecs:StartTask
+        - ecs:StopTask
+        - ecs:DescribeTasks
+        - ecs:ListTasks
+        - ecs:DescribeTaskDefinition
+        - ecs:ListTaskDefinitions
+      Resource: "*"
+
+functions:
+  hello:
+    handler: hello.hello
+
+  controleventtask:
+    handler: twitch-event-source.controltask
+

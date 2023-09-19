@@ -1,0 +1,99 @@
+{
+    "$metadata": {
+      "httpStatusCode": 200,
+      "requestId": "868f21e3-7609-441f-ab55-26e7ff52b685",
+      "attempts": 1,
+      "totalRetryDelay": 0
+    },
+    "failures": [],
+    "tasks": [
+      {
+        "attachments": [
+          {
+            "details": [
+              {
+                "name": "subnetId",
+                "value": "subnet-180f4541"
+              },
+              {
+                "name": "networkInterfaceId",
+                "value": "eni-03216a544fed91360"
+              },
+              {
+                "name": "macAddress",
+                "value": "0e:ac:d8:34:67:f3"
+              },
+              {
+                "name": "privateDnsName",
+                "value": "ip-172-31-20-252.ec2.internal"
+              },
+              {
+                "name": "privateIPv4Address",
+                "value": "172.31.20.252"
+              }
+            ],
+            "id": "9be3245a-1dd2-470b-8ad5-bb8b656a471c",
+            "status": "ATTACHED",
+            "type": "ElasticNetworkInterface"
+          }
+        ],
+        "attributes": [
+          {
+            "name": "ecs.cpu-architecture",
+            "value": "x86_64"
+          }
+        ],
+        "availabilityZone": "us-east-1c",
+        "clusterArn": "arn:aws:ecs:us-east-1:796987500533:cluster/TwitchChatEventSource",
+        "containers": [
+          {
+            "containerArn": "arn:aws:ecs:us-east-1:796987500533:container/TwitchChatEventSource/4d9eb1ee57334438a2faf6bd90a8951c/7b71ed9c-1211-41df-a19d-bcccaddbc402",
+            "cpu": "512",
+            "healthStatus": "UNKNOWN",
+            "image": "796987500533.dkr.ecr.us-east-1.amazonaws.com/hoagierepo:latest",
+            "lastStatus": "PENDING",
+            "name": "twitch-chat-event-source",
+            "networkInterfaces": [
+              {
+                "attachmentId": "9be3245a-1dd2-470b-8ad5-bb8b656a471c",
+                "privateIpv4Address": "172.31.20.252"
+              }
+            ],
+            "taskArn": "arn:aws:ecs:us-east-1:796987500533:task/TwitchChatEventSource/4d9eb1ee57334438a2faf6bd90a8951c"
+          }
+        ],
+        "cpu": "512",
+        "createdAt": "2023-09-19T03:32:16.971Z",
+        "desiredStatus": "RUNNING",
+        "enableExecuteCommand": false,
+        "ephemeralStorage": {
+          "sizeInGiB": 20
+        },
+        "group": "family:TwitchChatEventSource",
+        "healthStatus": "UNKNOWN",
+        "lastStatus": "PENDING",
+        "launchType": "FARGATE",
+        "memory": "1024",
+        "overrides": {
+          "containerOverrides": [
+            {
+              "environment": [
+                {
+                  "name": "TWITCH_CHANNEL",
+                  "value": "joplaysviollin"
+                }
+              ],
+              "name": "twitch-chat-event-source"
+            }
+          ],
+          "inferenceAcceleratorOverrides": []
+        },
+        "platformFamily": "Linux",
+        "platformVersion": "1.4.0",
+        "tags": [],
+        "taskArn": "arn:aws:ecs:us-east-1:796987500533:task/TwitchChatEventSource/4d9eb1ee57334438a2faf6bd90a8951c",
+        "taskDefinitionArn": "arn:aws:ecs:us-east-1:796987500533:task-definition/TwitchChatEventSource:4",
+        "version": 2
+      }
+    ]
+  }

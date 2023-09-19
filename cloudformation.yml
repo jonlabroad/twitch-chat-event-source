@@ -1,0 +1,69 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  ECSRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      RoleName: "ECSTaskExecutionRole"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: "Allow"
+            Principal:
+              Service:
+                - "ecs-tasks.amazonaws.com"
+            Action:
+              - "sts:AssumeRole"
+          - Effect: "Allow"
+            Principal:
+              Service:
+                - "events.amazonaws.com"
+            Action:
+              - "sts:AssumeRole"
+      ManagedPolicyArns:
+        - "arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy"
+
+  ECSCluster:
+    Type: "AWS::ECS::Cluster"
+    Properties:
+      ClusterName: "HoagieToolsCluster"
+
+  ECSContainerDefinition:
+    Type: "AWS::ECS::TaskDefinition"
+    Properties:
+      Family: "TwitchChatEventSource"
+      RequiresCompatibilities:
+        - "FARGATE"
+      ContainerDefinitions:
+        - Name: "TwitchChatEventSource"
+          Image: "796987500533.dkr.ecr.us-east-1.amazonaws.com/hoagierepo:latest"
+          Memory: 512
+          Cpu: 256
+          Essential: true
+          PortMappings:
+            - ContainerPort: 80
+              HostPort: 80
+      ExecutionRoleArn: !Ref ECSRole
+      NetworkMode: awsvpc
+
+  ECSService:
+    Type: "AWS::ECS::Service"
+    Properties:
+      Cluster: !Ref ECSCluster
+      LaunchType: FARGATE
+      DesiredCount: 1
+      TaskDefinition: !Ref ECSContainerDefinition
+
+  EventBridgeRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      RoleName: "TwitchChatEventSourceRole"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: "Allow"
+            Principal:
+              Service:
+                - "events.amazonaws.com"
+            Action:
+              - "sts:AssumeRole"
