@@ -1,0 +1,1 @@
+Invoke-Expression 'docker build --no-cache -t twitch-chat-event-source:latest .'
