@@ -28,12 +28,19 @@ provider:
         - ecs:ListTasks
         - ecs:DescribeTaskDefinition
         - ecs:ListTaskDefinitions
+        - iam:PassRole
       Resource: "*"
 
 functions:
-  hello:
-    handler: hello.hello
+  controleventtaskmanual:
+    handler: twitch-event-source.controltaskmanual
 
   controleventtask:
     handler: twitch-event-source.controltask
-
+    events:
+      - eventBridge:
+          pattern:
+            source:
+              - 'hoagie.twitch-eventsub'
+            detail-type:
+              - 'Event'

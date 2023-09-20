@@ -1,11 +1,10 @@
 "use strict";
 
 import { DescribeTasksCommand, DescribeTasksCommandOutput, ECSClient, ListTaskDefinitionsCommand, ListTasksCommand, RunTaskCommand, StopTaskCommand } from "@aws-sdk/client-ecs";
-import { APIGatewayProxyEvent } from "aws-lambda";
+import { EventBridgeEvent } from "aws-lambda";
 
 const ecs = new ECSClient({ region: "us-east-1" });
 const clusterName = "arn:aws:ecs:us-east-1:796987500533:cluster/TwitchChatEventSource";
-const serviceName = "TwitchChatEventSource";
 const taskDefinition = "arn:aws:ecs:us-east-1:796987500533:task-definition/TwitchChatEventSource:7"; // auto revision?
 
 interface TaskRequest {
@@ -14,7 +13,16 @@ interface TaskRequest {
     streamId: string;
 }
 
-module.exports.controltask = async (event: TaskRequest) => {
+module.exports.controltaskmanual = async (event: TaskRequest) => {
+    await control(event);
+};
+
+module.exports.controltask = async (event: EventBridgeEvent<any, any>) => {
+    console.log({ event });
+    //await control(event);
+};
+
+async function control(event: TaskRequest) {
     const listTasksResult = await ecs.send(new ListTasksCommand({
         cluster: clusterName,
     }));
@@ -110,7 +118,7 @@ module.exports.controltask = async (event: TaskRequest) => {
         cluster: clusterName,
     }));
     console.log({ listTasksResultEnd });
-};
+}
 
 function findStreamTask(event: TaskRequest, describeTasksResponse: DescribeTasksCommandOutput | undefined) {
     const task = describeTasksResponse?.tasks?.find(task => (
