@@ -58,33 +58,33 @@ export default class TwitchDonoWatcher {
             client.on("message", (channel, userstate, message, selfBool) => {
                 if (userstate.mod) {
                     this.print({ channel, userstate, message });
-                    this.publish({ channel, userstate, message, selfBool })
+                    this.publish("message", { channel, userstate, message, selfBool })
                 }
             });
 
             client.on("roomstate", (channel, state) => {
                 this.print({ channel, state });
-                this.publish({ channel, state })
+                this.publish("roomstate", { channel, state })
             });
 
             client.on("cheer", (channel, userstate, message) => {
                 this.print({ type: "cheer", user: userstate["display-name"], message });
-                this.publish({ channel, userstate, message })
+                this.publish("cheer", { channel, userstate, message })
             })
 
             client.on("subscription", (channel, username, methods, message, userstate) => {
                 this.print({ type: "subscription", username, message, methods });
-                this.publish({ channel, username, methods, message, userstate });
+                this.publish("subscription",  { channel, username, methods, message, userstate });
             })
 
             client.on("resub", (channel, username, method, message, userstate, methods: any) => {
                 this.print({ type: "subscription", username, message, method, plan: methods['msg-param-sub-plan'] });
-                this.publish({ channel, username, method, message, userstate, methods });
+                this.publish("resub", { channel, username, method, message, userstate, methods });
             })
 
             client.on("subgift", (channel, username, method, message, userstate, methods) => {
                 this.print({ type: "subgift", username, message, method, methods, plan: methods['msg-param-sub-plan'] });
-                this.publish({ channel, username, method, message, userstate });
+                this.publish("subgift", { channel, username, method, message, userstate });
             })
 
             client.on("connected", (address, port) => {
@@ -110,8 +110,8 @@ export default class TwitchDonoWatcher {
         }
     }
 
-    private async publish(msg: any) {
-        return this.eventPublisher.send(msg);
+    private async publish(type: string, msg: any) {
+        return this.eventPublisher.send(type, msg);
     }
 
     private async sleep(ms: number) {

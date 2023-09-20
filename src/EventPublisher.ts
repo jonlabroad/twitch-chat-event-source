@@ -11,13 +11,13 @@ export class EventPublisher {
         });
     }
 
-    public async send(msg: Object | string) {
-        const isDev = process.env.NODE_ENV !== "production";1
+    public async send(type: string, msg: Object | string) {
+        const isDev = process.env.NODE_ENV !== "production";
         try {
             const entries: PutEventsRequestEntry[] = [
                 {
                     Source: `hoagie.twitch-chat${isDev ? "-dev" : ""}`,
-                    DetailType: 'Message',
+                    DetailType: type,
                     Detail: (typeof msg === "string") ? msg : JSON.stringify(msg)
                 }
             ];
