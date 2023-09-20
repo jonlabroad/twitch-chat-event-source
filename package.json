@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "start-prod": "cross-env NODE_ENV=production && node dist/index.js",
-    "build": "cross-env NODE_ENV=production && tsc",
+    "start-prod": "cross-env NODE_ENV=production node dist/index.js",
+    "build": "cross-env NODE_ENV=production tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy-dev": "serverless deploy --stage development",
     "deploy-prod": "serverless deploy --stage prod"

@@ -12,7 +12,7 @@ export class EventPublisher {
     }
 
     public async send(msg: Object | string) {
-        const isDev = process.env.NODE_ENV !== "production";
+        const isDev = process.env.NODE_ENV !== "production";1
         try {
             const entries: PutEventsRequestEntry[] = [
                 {
