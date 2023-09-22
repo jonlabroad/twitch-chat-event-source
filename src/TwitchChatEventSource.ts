@@ -38,8 +38,8 @@ export default class TwitchDonoWatcher {
 
             client.on("message", (channel, userstate, message, selfBool) => {
                 if (userstate.mod) {
-                    this.print({ channel, userstate, message });
-                    this.publish(this.getStreamId(channel), "message", { channel, userstate, message, selfBool })
+                    //this.print({ channel, userstate, message });
+                    this.publish("message", { channel, userstate, message, selfBool })
                 }
             });
 
@@ -50,22 +50,22 @@ export default class TwitchDonoWatcher {
 
             client.on("cheer", (channel, userstate, message) => {
                 this.print({ type: "cheer", user: userstate["display-name"], message });
-                this.publish(this.getStreamId(channel), "cheer", { channel, userstate, message })
+                this.publish("cheer", { channel, userstate, message })
             })
 
             client.on("subscription", (channel, username, methods, message, userstate) => {
                 this.print({ type: "subscription", username, message, methods });
-                this.publish(this.getStreamId(channel), "subscription",  { channel, username, methods, message, userstate });
+                this.publish("subscription",  { channel, username, methods, message, userstate });
             })
 
-            client.on("resub", (channel, username, months, message, userstate, methods: any) => {
-                this.print({ type: "resub", username, message, months, plan: methods['msg-param-sub-plan'] });
-                this.publish(this.getStreamId(channel), "resub", { channel, username, months, message, userstate, methods });
+            client.on("resub", (channel, username, months, message, userstate, methods) => {
+                this.print({ type: "resub", channel, username, months, message, userstate, methods });
+                this.publish("resub", { channel, username, months, message, userstate, methods });
             })
 
             client.on("subgift", (channel, username, streakMonths, recipient, methods, userstate) => {
-                this.print({ type: "subgift", username, recipient, streakMonths, methods, plan: methods['msg-param-sub-plan'] });
-                this.publish(this.getStreamId(channel), "subgift", { channel, username, streakMonths, recipient, methods, userstate });
+                this.print({ type: "subgift", channel, username, recipient, streakMonths, methods });
+                this.publish("subgift", { channel, username, streakMonths, recipient, methods, userstate });
             })
 
             client.on("connected", (address, port) => {
@@ -81,10 +81,6 @@ export default class TwitchDonoWatcher {
         }
     }
 
-    private getStreamId(channel: string) {
-        return this.streamInfo[channel.replace("#", "").toLowerCase()]?.id;
-    }
-
     private print(msg: any) {
         console.log(msg);
         if (this.printToFile) {
@@ -93,8 +89,8 @@ export default class TwitchDonoWatcher {
         }
     }
 
-    private async publish(streamId: string, type: string, msg: any) {
-        return this.eventPublisher.send(streamId, type, msg);
+    private async publish(type: string, msg: any) {
+        return this.eventPublisher.send(type, msg);
     }
 
     private async sleep(ms: number) {

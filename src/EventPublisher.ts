@@ -11,7 +11,7 @@ export class EventPublisher {
         });
     }
 
-    public async send(streamId: string, type: string, msg: Object | string) {
+    public async send(type: string, msg: Object | string) {
         const isDev = process.env.NODE_ENV !== "production";
         try {
             const entries: PutEventsRequestEntry[] = [
@@ -19,7 +19,6 @@ export class EventPublisher {
                     Source: `hoagie.twitch-chat${isDev ? "-dev" : ""}`,
                     DetailType: type,
                     Detail: (typeof msg === "string") ? msg : JSON.stringify({
-                        streamId,
                         ...msg,
                     })
                 }

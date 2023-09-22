@@ -4,8 +4,7 @@ import { resubEvent } from "./testData";
 
 async function run() {
     const eventPublisher = new EventPublisher();
-    const streamId = "test-stream-id";
-    await eventPublisher.send(streamId, "resub", resubEvent);
+    await eventPublisher.send("resub", resubEvent);
 }
 
 run();
