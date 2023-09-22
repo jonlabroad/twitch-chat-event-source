@@ -13,8 +13,6 @@ export default class TwitchDonoWatcher {
     historyWritten = new Set<string>();
     eventPublisher = new EventPublisher();
 
-    connected: boolean = false;
-
     printToFile: boolean = false; // DON'T COMMIT true!
 
     constructor() {
@@ -27,33 +25,16 @@ export default class TwitchDonoWatcher {
             this.channels = Array.from(config?.streamers.values() ?? []);
             this.print(this.channels);
             const client = new tmi.Client({
+                options: {
+                    debug: true,
+                },
+                connection: {
+                    reconnect: true,
+                },
                 channels: [...this.channels]
             });
 
-            setInterval(async () => {
-                const streamInfo = await Promise.all(this.channels.map(channel => this.twitchClient.getUserStream(channel)));
-                streamInfo.forEach((info, i) => {
-                    this.streamInfo[this.channels[i].toLowerCase()] = info;
-                    if (info) {
-                        const dbClient = new HoagieDbClient(this.channels[i]);
-                        this.hoagieDbClients[this.channels[i].toLowerCase()] = dbClient;
-                        if (!this.historyWritten.has(info.id)) {
-                            this.print({ newStream: info.id });
-                            dbClient.setStreamHistory(info.id)
-                            this.historyWritten.add(info.id);
-                        }
-                    }
-                });
-            }, 5000)
-
             const self = this;
-
-            setInterval(() => {
-                if (!this.connected) {
-                    this.print("Trying to reconnect...");
-                    client.connect()
-                }
-            }, 1000);
 
             client.on("message", (channel, userstate, message, selfBool) => {
                 if (userstate.mod) {
@@ -77,23 +58,21 @@ export default class TwitchDonoWatcher {
                 this.publish(this.getStreamId(channel), "subscription",  { channel, username, methods, message, userstate });
             })
 
-            client.on("resub", (channel, username, method, message, userstate, methods: any) => {
-                this.print({ type: "subscription", username, message, method, plan: methods['msg-param-sub-plan'] });
-                this.publish(this.getStreamId(channel), "resub", { channel, username, method, message, userstate, methods });
+            client.on("resub", (channel, username, months, message, userstate, methods: any) => {
+                this.print({ type: "resub", username, message, months, plan: methods['msg-param-sub-plan'] });
+                this.publish(this.getStreamId(channel), "resub", { channel, username, months, message, userstate, methods });
             })
 
-            client.on("subgift", (channel, username, method, message, userstate, methods) => {
-                this.print({ type: "subgift", username, message, method, methods, plan: methods['msg-param-sub-plan'] });
-                this.publish(this.getStreamId(channel), "subgift", { channel, username, method, message, userstate });
+            client.on("subgift", (channel, username, streakMonths, recipient, methods, userstate) => {
+                this.print({ type: "subgift", username, recipient, streakMonths, methods, plan: methods['msg-param-sub-plan'] });
+                this.publish(this.getStreamId(channel), "subgift", { channel, username, streakMonths, recipient, userstate });
             })
 
             client.on("connected", (address, port) => {
                 this.print("connected");
-                this.connected = true;
             });
             client.on("disconnected", async (reason) => {
                 this.print({ disconnected: reason });
-                this.connected = false;
             })
             client.connect();
         } catch (err) {
