@@ -65,7 +65,7 @@ export default class TwitchDonoWatcher {
 
             client.on("subgift", (channel, username, streakMonths, recipient, methods, userstate) => {
                 this.print({ type: "subgift", username, recipient, streakMonths, methods, plan: methods['msg-param-sub-plan'] });
-                this.publish(this.getStreamId(channel), "subgift", { channel, username, streakMonths, recipient, userstate });
+                this.publish(this.getStreamId(channel), "subgift", { channel, username, streakMonths, recipient, methods, userstate });
             })
 
             client.on("connected", (address, port) => {

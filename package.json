@@ -7,7 +7,7 @@
     "start": "ts-node src/index.ts",
     "start-prod": "cross-env NODE_ENV=production node dist/index.js",
     "build": "cross-env NODE_ENV=production tsc",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ts-node src/test.ts",
     "deploy-dev": "serverless deploy --stage development",
     "deploy-prod": "serverless deploy --stage prod"
   },
@@ -25,6 +25,7 @@
     "@types/aws-lambda": "^8.10.121",
     "@types/tmi.js": "^1.8.4",
     "cross-env": "^7.0.3",
+    "prettier": "^3.0.3",
     "serverless": "^3.35.2",
     "serverless-offline": "^12.0.4",
     "serverless-plugin-log-retention": "^2.0.0",
