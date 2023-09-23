@@ -38,8 +38,8 @@ export default class TwitchDonoWatcher {
 
             client.on("message", (channel, userstate, message, selfBool) => {
                 if (userstate.mod) {
-                    //this.print({ channel, userstate, message });
-                    //this.publish("message", { channel, userstate, message, selfBool })
+                    // this.print({ channel, userstate, message });
+                    this.publish("message", { channel, userstate, message, selfBool })
                 }
             });
 
