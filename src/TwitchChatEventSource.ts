@@ -37,7 +37,9 @@ export default class TwitchDonoWatcher {
             const self = this;
 
             client.on("message", (channel, userstate, message, selfBool) => {
-                if (userstate.mod) {
+                const channelName = channel.replace("#", "").toLowerCase();
+                const isBroadcaster = channelName === userstate.username?.toLowerCase();
+                if (userstate.mod || isBroadcaster) {
                     // this.print({ channel, userstate, message });
                     this.publish("message", { channel, userstate, message, selfBool })
                 }
