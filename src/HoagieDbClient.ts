@@ -12,17 +12,15 @@ export default class HoagieDbClient {
     tableName = "HoagieTools-prod";
     dbClient = new DynamoDBClient({ region: "us-east-1" });
     docClient = DynamoDBDocumentClient.from(this.dbClient);
-    channel: string;
 
-    constructor(channel: string) {
-        this.channel = channel;
+    constructor() {
     }
 
-    public async setStreamHistory(streamId: string) {
+    public async setStreamHistory(channel: string, streamId: string) {
         try {
             const date = new Date();
             const key = {
-                CategoryKey: `DonoWatch_${this.channel}_streamhistory`,
+                CategoryKey: `DonoWatch_${channel}_streamhistory`,
                 SubKey: streamId,
             };
             const input: UpdateCommandInput = {

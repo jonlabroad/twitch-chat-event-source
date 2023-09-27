@@ -27,16 +27,21 @@ provider:
         - ecs:DescribeTasks
         - ecs:ListTasks
         - ecs:DescribeTaskDefinition
+        - ecs:DescribeServices
+        - ecs:UpdateService
         - ecs:ListTaskDefinitions
         - iam:PassRole
+        - dynamodb:Query
+        - dynamodb:GetItem
+      Resource: "*"
+    - Effect: "Allow"
+      Action: 
+        - "ssm:GetParameters"
       Resource: "*"
 
 functions:
-  controleventtaskmanual:
-    handler: twitch-event-source.controltaskmanual
-
-  controleventtask:
-    handler: twitch-event-source.controltask
+  handleStreamStart:
+    handler: twitch-event-source.handleStreamStart
     events:
       - eventBridge:
           pattern:
@@ -44,3 +49,39 @@ functions:
               - 'hoagie.twitch-eventsub'
             detail-type:
               - 'Event'
+            detail:
+              subscription:
+                type:
+                  - 'stream.online'
+    environment:
+      TABLENAME: HoagieTools-prod
+      TWITCH_CLIENT_ID: ${file(secrets.yml):twitchClientId_prod}
+      TWITCH_CLIENT_SECRET: ${file(secrets.yml):twitchClientSecret_prod}
+
+  handleStreamStop:
+    handler: twitch-event-source.handleStreamStop
+    events:
+      - eventBridge:
+          pattern:
+            source:
+              - 'hoagie.twitch-eventsub'
+            detail-type:
+              - 'Event'
+            detail:
+              subscription:
+                type:
+                  - 'stream.offline'
+    environment:
+      TABLENAME: HoagieTools-prod
+      TWITCH_CLIENT_ID: ${file(secrets.yml):twitchClientId_prod}
+      TWITCH_CLIENT_SECRET: ${file(secrets.yml):twitchClientSecret_prod}
+
+  scheduledShutdown:
+    handler: twitch-event-source.scheduledShutdown
+    events:
+      - schedule: cron(0 9 * * ? *)
+          
+    environment:
+      TABLENAME: HoagieTools-prod
+      TWITCH_CLIENT_ID: ${file(secrets.yml):twitchClientId_prod}
+      TWITCH_CLIENT_SECRET: ${file(secrets.yml):twitchClientSecret_prod}

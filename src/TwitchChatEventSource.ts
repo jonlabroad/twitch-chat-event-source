@@ -3,6 +3,8 @@ import HoagieDbClient from "./HoagieDbClient";
 import Secrets from "./Secrets";
 import TwitchClient from "./TwitchClient";
 import { EventPublisher } from "./EventPublisher";
+import { HoagieEventPublisher } from "./HoagieEventPublisher";
+import { TwitchChatEventSourceStatus } from "./TwitchChatEventSourceStatus";
 const fs = require('fs');
 
 export default class TwitchDonoWatcher {
@@ -20,8 +22,9 @@ export default class TwitchDonoWatcher {
 
     public async run() {
         try {
+            HoagieEventPublisher.publishToTopic(TwitchChatEventSourceStatus.createEvent("startup"));
             await Secrets.init();
-            const config = await (new HoagieDbClient("n/a").getConfig());
+            const config = await (new HoagieDbClient().getConfig());
             this.channels = Array.from(config?.streamers.values() ?? []);
             this.print(this.channels);
             const client = new tmi.Client({
@@ -72,13 +75,16 @@ export default class TwitchDonoWatcher {
 
             client.on("connected", (address, port) => {
                 this.print("connected");
+                HoagieEventPublisher.publishToTopic(TwitchChatEventSourceStatus.createEvent("connected"));
             });
             client.on("disconnected", async (reason) => {
                 this.print({ disconnected: reason });
+                HoagieEventPublisher.publishToTopic(TwitchChatEventSourceStatus.createEvent("disconnected"));
             })
             client.connect();
-        } catch (err) {
+        } catch (err: any) {
             console.error(err);
+            HoagieEventPublisher.publishToTopic(TwitchChatEventSourceStatus.createEvent("error", { message: err?.message }));
             throw err
         }
     }

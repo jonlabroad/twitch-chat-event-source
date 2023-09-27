@@ -1,129 +1,92 @@
 "use strict";
 
-import { DescribeTasksCommand, DescribeTasksCommandOutput, ECSClient, ListTaskDefinitionsCommand, ListTasksCommand, RunTaskCommand, StopTaskCommand } from "@aws-sdk/client-ecs";
+import { DescribeServicesCommand, DescribeTasksCommand, DescribeTasksCommandOutput, ECSClient, ListServicesCommand, ListTaskDefinitionsCommand, ListTasksCommand, RunTaskCommand, StopTaskCommand, UpdateServiceCommand } from "@aws-sdk/client-ecs";
 import { EventBridgeEvent } from "aws-lambda";
+import HoagieDbClient from "./src/HoagieDbClient";
+import TwitchClient from "./src/TwitchClient";
+import Secrets from "./src/Secrets";
 
 const ecs = new ECSClient({ region: "us-east-1" });
 const clusterName = "arn:aws:ecs:us-east-1:796987500533:cluster/TwitchChatEventSource";
-const taskDefinition = "arn:aws:ecs:us-east-1:796987500533:task-definition/TwitchChatEventSource:7"; // auto revision?
+const serviceName = "TwitchChatEventSource";
 
-interface TaskRequest {
-    operation: "start" | "stop";
-    channel: string;
-    streamId: string;
-}
-
-module.exports.controltaskmanual = async (event: TaskRequest) => {
-    await control(event);
-};
-
-module.exports.controltask = async (event: EventBridgeEvent<any, any>) => {
+module.exports.handleStreamStart = async (event: EventBridgeEvent<any, any>) => {
     console.log({ event });
-    //await control(event);
-};
-
-async function control(event: TaskRequest) {
-    const listTasksResult = await ecs.send(new ListTasksCommand({
-        cluster: clusterName,
-    }));
-    console.log(JSON.stringify(listTasksResult, null, 2));
-
-    let describeTasksResponse: DescribeTasksCommandOutput | undefined = undefined;
-    if (listTasksResult.taskArns && listTasksResult.taskArns.length > 0) {
-        describeTasksResponse = await ecs.send(new DescribeTasksCommand({
-            cluster: clusterName,
-            include: ["TAGS"],
-            tasks: listTasksResult.taskArns || [],
-        }));
-        console.log(JSON.stringify(describeTasksResponse, null, 2));
-    }
-
-    if (event.operation === "start") {
-        // Is there an existing one?
-        const existingTask = findStreamTask(event, describeTasksResponse);
-        if (existingTask) {
-            console.error("Cannot start task: task already exists");
-            return;
-        }
-
-        const runTaskCommand = await ecs.send(new RunTaskCommand({
-            cluster: clusterName,
-            taskDefinition: taskDefinition,
-            count: 1,
-            launchType: "FARGATE",
-            networkConfiguration: {
-                awsvpcConfiguration: {
-                    assignPublicIp: "ENABLED",
-                    subnets: [
-                        "subnet-180f4541",
-                        "subnet-6388ee06",
-                        "subnet-1e98e735",
-                        "subnet-299eae5e",
-                        "subnet-270cec1a",
-                        "subnet-672fad6b"
-                    ],
-                    securityGroups: [
-                        "sg-90b33ef7",
-                    ],
-                },
-            },
-            tags: [
-                {
-                    key: "twitch-channel",
-                    value: event.channel,
-                },
-                {
-                    key: "stream-id",
-                    value: event.streamId,
-                }
-            ],
-            overrides: {
-                containerOverrides: [
-                    {
-                        name: "twitch-chat-event-source",
-                        environment: [
-                            {
-                                name: "TWITCH_CHANNEL",
-                                value: event.channel,
-                            },
-                            {
-                                name: "TWITCH_STREAM_ID",
-                                value: event.streamId
-                            }
-                        ],
-                    },
-                ],
-            }
-        }));
-        console.log({ runTaskCommand });
-    } else if (event.operation === "stop") {
-        if (listTasksResult.taskArns) {
-            const existingTask = findStreamTask(event, describeTasksResponse);
-            if (!existingTask) {
-                console.error("Cannot stop task: No task is currently running");
-                return;
-            }
-
-            const listTasksResponse = await ecs.send(new StopTaskCommand({
-                cluster: clusterName,
-                task: listTasksResult.taskArns[0]
-            }));
-            console.log({ listTasksResponse });
-        } else {
-            console.warn("No tasks to stop");
-        }
-    }
-
-    const listTasksResultEnd = await ecs.send(new ListTasksCommand({
-        cluster: clusterName,
-    }));
-    console.log({ listTasksResultEnd });
+    await startServiceIfNotRunning();
 }
 
-function findStreamTask(event: TaskRequest, describeTasksResponse: DescribeTasksCommandOutput | undefined) {
-    const task = describeTasksResponse?.tasks?.find(task => (
-        task.tags?.find(tag => tag.key === "twitch-channel" && tag.value === event.channel) &&
-        task.tags?.find(tag => tag.key === "stream-id" && tag.value === event.streamId)
-    ));
-    return task;
+module.exports.handleStreamStop = async (event: EventBridgeEvent<any, any>) => {
+    await Secrets.init(); // TODO start using SSM
+    console.log({ event });
+    const streams = await getCurrentLiveStreams();
+    if (streams && streams.length <= 0) {
+        const serviceDescription = await getServiceDescription();
+        if (!serviceDescription) {
+            throw new Error(`Cannot find service description for ${serviceName} in cluster ${clusterName}`);
+        }
+
+        if ((serviceDescription.desiredCount ?? 0) >= 1) {
+            console.log(`No streams are live, stopping service`);
+            await setServiceDesiredCount(0);
+        }
+    }
+}
+
+module.exports.scheduledShutdown = async (event: any) => {
+    console.log({ event });
+    const serviceDescription = await getServiceDescription();
+    if (!serviceDescription) {
+        throw new Error(`Cannot find service description for ${serviceName} in cluster ${clusterName}`);
+    }
+
+    if ((serviceDescription.desiredCount ?? 0) >= 1) {
+        console.log(`Stopping service`);
+        await setServiceDesiredCount(0);
+    }
+}
+
+async function startServiceIfNotRunning() {
+    const serviceDescription = await getServiceDescription();
+    if (!serviceDescription) {
+        throw new Error(`Cannot find service description for ${serviceName} in cluster ${clusterName}`);
+    }
+
+    if ((serviceDescription.desiredCount ?? 0) <= 0) {
+        console.log(`Starting service`);
+        await setServiceDesiredCount(1);
+    }
+}
+
+async function getServiceDescription() {
+    const describeServices = await ecs.send(new DescribeServicesCommand({
+        cluster: clusterName,
+        services: [serviceName],
+    }));
+    console.log({ describeServices});
+
+    const serviceDescription = describeServices?.services?.[0];
+    return serviceDescription;
+}
+
+async function setServiceDesiredCount(desiredCount: number) {
+    const runTask = await ecs.send(new UpdateServiceCommand({
+        cluster: clusterName,
+        service: "TwitchChatEventSource",
+        desiredCount: desiredCount,            
+    }));
+    console.log({ runTask });
+    return runTask;
+}
+
+async function getCurrentLiveStreams() {
+    const config = await new HoagieDbClient().getConfig();
+    if (!config) {
+        throw new Error(`Cannot find config`);
+    }
+
+    console.log({ config });
+    const twitchClient = new TwitchClient();
+    const streamerStreams = await twitchClient.getStreamsByUsernames([...config.streamers], "live");
+    console.log(`Current live streams: ${JSON.stringify(streamerStreams)}`);
+    return streamerStreams;
 }

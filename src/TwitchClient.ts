@@ -54,10 +54,10 @@ export default class TwitchClient {
         return data.data;
     }
 
-    async getUserStream(username: string): Promise<any> {
+    async getUserStream(username: string, type?: string): Promise<any> {
         try {
             await this.getAuthToken();
-            const data = await this.getRequest(`https://api.twitch.tv/helix/streams?user_login=${username}`, false);
+            const data = await this.getRequest(`https://api.twitch.tv/helix/streams?user_login=${username}${type ? `&type=${type}` : ""}`, false);
             return data.data[0];
         } catch (err) {
             console.error(err);
@@ -105,12 +105,14 @@ export default class TwitchClient {
         return data.data;
     }
 
-    async getStreamsByUsernames(usernames: string[]): Promise<StreamData[]> {
-        const data = await this.getRequest(`https://api.twitch.tv/helix/streams?${usernames.map(u => `user_login=${u}`).join("&")}`, false);
+    async getStreamsByUsernames(usernames: string[], type?: string): Promise<StreamData[]> {
+        await this.getAuthToken();
+        const data = await this.getRequest(`https://api.twitch.tv/helix/streams?${type ? `type=${type}&` : ""}${usernames.map(u => `user_login=${u}`).join("&")}`, false);
         return data.data ?? [];
     }
 
     async getStreamsByGame(gameId: string): Promise<StreamData[]> {
+        await this.getAuthToken();
         let after: string | undefined = undefined;
         const channels: StreamData[] = [];
         do {
@@ -122,11 +124,13 @@ export default class TwitchClient {
     }
 
     async getGame(name: string): Promise<Game | undefined> {
+        await this.getAuthToken();
         const data = await this.getRequest(`https://api.twitch.tv/helix/games?name=${name}`, false) as DataResponse<Game[]>;
         return data.data?.[0];
     }
 
     async getUserId(username: string) {
+        await this.getAuthToken();
         const data = await this.getRequest(`https://api.twitch.tv/helix/users?login=${username}`, true);
         if (data?.data && data?.data?.length === 1) {
             return data.data[0].id as number;
@@ -134,6 +138,7 @@ export default class TwitchClient {
     }
 
     async getChannelByUser(username: string): Promise<ChannelData | undefined> {
+        await this.getAuthToken();
         const userData = await this.getUsers([username]);
         if (userData && userData.length > 0) {
             const broadcasterId = userData[0].id;
@@ -146,6 +151,7 @@ export default class TwitchClient {
     }
 
     async getChannelsByUsers(usernames: string[]): Promise<ChannelData[]> {
+        await this.getAuthToken();
         let channelData: ChannelData[] = [];
         const usersData = await this.getUsers(usernames);
         await Promise.all(usersData.map(async userData => {
