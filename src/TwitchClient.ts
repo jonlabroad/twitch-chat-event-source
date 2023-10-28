@@ -30,7 +30,7 @@ export default class TwitchClient {
     }
 
     async refreshAuthToken() {
-        const clientSecret = Secrets.getInstance().secrets.twitchClientSecret;
+        const clientSecret = Secrets.getInstance().secrets.twitchClientSecretProd;
         console.log(`https://id.twitch.tv/oauth2/token?client_id=${Config.clientId}&client_secret=${clientSecret}&grant_type=client_credentials`);
         const response = await axios.post(`https://id.twitch.tv/oauth2/token?client_id=${Config.clientId}&client_secret=${clientSecret}&grant_type=client_credentials`);
         if (response.status === 200 && response.data) {

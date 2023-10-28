@@ -19,7 +19,7 @@ export default class Secrets {
                 "#CategoryKey": `CategoryKey`
             },
             ExpressionAttributeValues: {
-                ":catkey": { "S": "DonoWatch_SECRETS" }
+                ":catkey": { "S": "SECRETS" }
             }
         } as QueryCommandInput));
         response.Items?.forEach(item => {
