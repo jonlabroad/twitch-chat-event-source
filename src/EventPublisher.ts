@@ -1,11 +1,11 @@
 import { EventBridgeClient, PutEventsCommand, PutEventsRequestEntry } from "@aws-sdk/client-eventbridge";
 
 export class EventPublisher {
-    //private busName: string;
     private client: EventBridgeClient;
+    private baseType: string;
 
-    constructor(/*busName: string*/) {
-        //this.busName = busName;
+    constructor(baseType: string) {
+        this.baseType = baseType;
         this.client = new EventBridgeClient({
             region: "us-east-1",
         });
@@ -16,7 +16,7 @@ export class EventPublisher {
         try {
             const entries: PutEventsRequestEntry[] = [
                 {
-                    Source: `hoagie.twitch-chat${isDev ? "-dev" : ""}`,
+                    Source: `${this.baseType}${isDev ? "-dev" : ""}`,
                     DetailType: type,
                     Detail: (typeof msg === "string") ? msg : JSON.stringify({
                         ...msg,
@@ -26,7 +26,6 @@ export class EventPublisher {
             const command = new PutEventsCommand({
                 Entries: entries,
             });
-            console.log({ event: entries });
             const response = await this.client.send(command);
             if (!!response?.FailedEntryCount) {
                 console.error(response);

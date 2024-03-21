@@ -13,7 +13,7 @@ export default class TwitchDonoWatcher {
     twitchClient = new TwitchClient();
     hoagieDbClients: Record<string, HoagieDbClient> = {};
     historyWritten = new Set<string>();
-    eventPublisher = new EventPublisher();
+    eventPublisher = new EventPublisher("hoagie.twitch-chat");
 
     printToFile: boolean = false; // DON'T COMMIT true!
 
