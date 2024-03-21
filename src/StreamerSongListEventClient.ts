@@ -60,7 +60,6 @@ export class StreamerSongListEventClient {
             // streamerId is the numeric `id` from `/streamers/<streamer-name` endpoint
             // but needs to be cast as a string for the socket event
             console.log("SSL connected");
-            console.log({ sslIds });
             sslIds.forEach((streamerId) => {
                 console.log(`Joining SSL room ${streamerId}`);
                 ioClient.emit('join-room', `${streamerId}`);

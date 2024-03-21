@@ -14,7 +14,6 @@ export class StreamerSongListWatcher {
         console.log("StreamerSongListWatcher.run");
         channels.forEach((channel) => {
             const eventClient = new StreamerSongListEventClient([channel], (eventName: string, eventData: any) => {
-                console.log({ eventName, eventData });
                 /*
                 fs.appendFileSync(`streamerSongListWatcher_${channel.toLowerCase()}.json`, `${JSON.stringify({
                     eventName,
@@ -22,7 +21,10 @@ export class StreamerSongListWatcher {
                 })}\n`);
                 */
                console.log({eventName, eventData}); 
-                eventPublisher.send(eventName, eventData);
+                eventPublisher.send(eventName, {
+                    channel,
+                    eventData,
+                });
             });
             eventClient.connectAll();
         });
