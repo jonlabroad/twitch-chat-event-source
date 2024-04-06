@@ -39,7 +39,7 @@ export default class TwitchDonoWatcher {
 
             const self = this;
 
-            client.on("message", (channel, userstate, message, selfBool) => {
+            client.on("message", (channel, userstate: tmi.ChatUserstate, message, selfBool) => {
                 const channelName = channel.replace("#", "").toLowerCase();
                 const isBroadcaster = channelName === userstate.username?.toLowerCase();
                 if (userstate.mod || isBroadcaster) {
@@ -53,7 +53,7 @@ export default class TwitchDonoWatcher {
                 //this.publish(this.getStreamId(channel), "roomstate", { channel, state })
             });
 
-            client.on("cheer", (channel, userstate, message) => {
+            client.on("cheer", (channel, userstate: tmi.ChatUserstate, message) => {
                 this.print({ type: "cheer", user: userstate["display-name"], message });
                 this.publish("cheer", { channel, userstate, message })
             })

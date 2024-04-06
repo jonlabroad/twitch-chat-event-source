@@ -2,7 +2,6 @@ import { EventPublisher } from "./EventPublisher";
 import HoagieDbClient from "./HoagieDbClient";
 import Secrets from "./Secrets";
 import { StreamerSongListEventClient } from "./StreamerSongListEventClient";
-const fs = require('fs');
 
 export class StreamerSongListWatcher {   
     public async run() {
@@ -13,14 +12,8 @@ export class StreamerSongListWatcher {
 
         console.log("StreamerSongListWatcher.run");
         channels.forEach((channel) => {
-            const eventClient = new StreamerSongListEventClient([channel], (eventName: string, eventData: any) => {
-                /*
-                fs.appendFileSync(`streamerSongListWatcher_${channel.toLowerCase()}.json`, `${JSON.stringify({
-                    eventName,
-                    eventData,
-                })}\n`);
-                */
-               console.log({eventName, eventData}); 
+            const eventClient = new StreamerSongListEventClient([channel], async (eventName: string, eventData: any) => {
+               console.log({eventName, eventData});
                 eventPublisher.send(eventName, {
                     channel,
                     eventData,

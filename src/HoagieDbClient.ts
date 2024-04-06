@@ -16,29 +16,6 @@ export default class HoagieDbClient {
     constructor() {
     }
 
-    public async setStreamHistory(channel: string, streamId: string) {
-        try {
-            const date = new Date();
-            const key = {
-                CategoryKey: `DonoWatch_${channel}_streamhistory`,
-                SubKey: streamId,
-            };
-            const input: UpdateCommandInput = {
-                TableName: this.tableName,
-                Key: key,
-                UpdateExpression: "SET #timestamp = if_not_exists(#timestamp, :timestamp)",
-                ExpressionAttributeNames: { "#timestamp": "timestamp" },
-                ExpressionAttributeValues: {
-                    ":timestamp": date.toISOString()
-                }
-            }
-            console.log({input});
-            await this.dbClient.send(new UpdateCommand(input));
-        } catch (err) {
-            console.error(err);
-        }
-    }
-
     public async getConfig() {
         try {
             const key = {
