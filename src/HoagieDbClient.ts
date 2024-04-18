@@ -32,12 +32,4 @@ export default class HoagieDbClient {
             console.error(err);
         }
     }
-
-    getKey(channel: string, streamId: string) {
-        return `DonoWatch_${channel.toLowerCase()}_${streamId}`;
-    }
-
-    getSort(username: string) {
-        return `${username.toLowerCase()}`;
-    }
 }
